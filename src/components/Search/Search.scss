@@ -1,0 +1,10 @@
+.search__wide {
+  display: flex;
+  width: 100%;
+  transition: 0.9s all ease-in-out;
+}
+
+.search, .search__wide {
+  border: none;
+  outline: none;
+}

@@ -1,0 +1,94 @@
+.create {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 30px;
+
+  &__header {
+    margin-top: 30px;
+  }
+
+  &__pizzaimage {
+    width: 200px;
+    height: auto;
+  }
+  &__pizzaimg {
+    width: 200px;
+  }
+
+  &__complete {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    padding: 30px 0px;
+  }
+
+  &__pizzaelements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__ingradients {
+    width: 100%;
+  } 
+
+  &__ingradient {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  &__ingradient input {
+    color: grey;
+  }
+
+  &__pizzablock {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin-bottom: 40px;
+  }
+
+  &__pizzaelements {
+    width: 50%;
+  }
+
+  &__multiselect {
+    display: block;
+    width: 500px;
+    min-width: 500px;
+  }
+
+  &__price {
+    margin-bottom: 20px;
+  }
+
+  // inputs
+
+  .rw-widget {
+    width: 100%;
+  }
+
+  .input__name {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    min-height: 36px;
+    padding-left: 13.17px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+}

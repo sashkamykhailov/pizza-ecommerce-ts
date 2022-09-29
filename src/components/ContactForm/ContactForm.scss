@@ -1,0 +1,41 @@
+.formblock {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.none {
+  display: none;
+}
+
+label.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.textarea {
+  padding: 10px;
+}
+
+.formthankyou {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-thanks {
+  margin-top: 30px;
+  text-align: center;
+}

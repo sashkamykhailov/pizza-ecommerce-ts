@@ -1,0 +1,38 @@
+
+ 
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 30px 0px 30px;
+
+  &__nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+  }
+
+  &__ul {
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__li {
+    padding: 0px 20px;
+  }
+}
+
+.cart__link {
+  margin-left: 30px;
+}
+
+.totalPrice {
+  font-size: 15px;
+}

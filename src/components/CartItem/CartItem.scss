@@ -1,0 +1,92 @@
+
+
+.button__container {
+  margin-top: 15px;
+}
+
+.button-cart {
+  margin: 0px 10px;
+  padding: 4px;
+  border: none;
+  background: transparent;
+}
+
+.cart {
+  display: flex;
+  opacity: 1;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
+  &__info {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__image {
+    margin-top: 20px;
+    width: 250px;
+  }
+
+  &__img {
+    width: 250px;
+  }
+
+  &__container-btn {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__items {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__buttons {
+    margin-top: 10px;
+  }
+
+  &__buttons-proceed {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+  }
+}
+
+.cart__container:hover .cart__img {
+  transform: scale(1.2);
+}
+
+.button-cart {
+  font-weight: bold;
+}
+
+.button-cart:hover {
+  color: red;
+}

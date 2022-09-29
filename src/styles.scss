@@ -1,0 +1,255 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.4s all ease-in-out;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+ul, li {
+  padding: 0;
+  cursor: pointer;
+  margin: 0;
+}
+
+.active {
+  background-color: black;
+  color: white;
+  transition: .4s all ease-in-out;
+}
+
+.button-btn {
+  padding: 5px;
+  border: none;
+  background: transparent;
+  font-weight: bold;
+}
+
+.button-btn:hover {
+  color: red;
+}
+
+// MOBILE FOR ALL PAGES: 
+
+// Pizza page
+@media screen and (max-width: 1385px) {
+  .pizzalist__singlepizza {
+    margin: 0px;
+  }
+}
+
+@media screen and (max-width: 1215px) {
+  .pizzaitem {
+    max-width: 245px;
+  }
+}
+
+@media screen and (max-width: 1011px) {
+  .pizzaitem {
+    max-width: 245px;
+  }
+  .pizzalist__items {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .categories {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .pizzalist__sort {
+    flex-direction: column;
+  }
+  .sort {
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-top: 20px;
+  }
+  .categories {
+    width: 100%;
+  }
+}
+
+
+
+// Create Pizza page
+
+@media screen and (max-width: 992px) {
+  .create {
+    margin-top: 20px;
+  }
+
+  .create__pizzablock {
+    width: 100%;
+    flex-direction: column;
+  }
+  .create__priceinfo {
+    margin-top: 20px;
+  }
+
+  .create__addtocart {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .create__pizzaelements {
+    width: 100%;
+  }
+}
+
+
+//Contact-page 
+
+@media screen and (max-width: 1920px) {
+  .contact__text {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 948px) {
+  .form {
+    width: 80%;
+  }
+}
+
+//Cart 
+
+@media screen and (max-width: 768px) {
+  .cart {
+    padding-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  input.card-cvc {
+    width: 100%;
+  }
+}
+
+//SinglePizza Info
+
+@media screen and (max-width: 899px) {
+  .pizza-block{
+    flex-direction: column;
+    align-items: center;
+  }
+  .pizza-block div:nth-child(1) {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .pizzacreate__description {
+    max-width: 400px;
+    padding: 0px 20px;
+  }
+  .rnc__notification {
+    width: 280px !important;
+  }
+}
+
+
+
+
+// Header
+
+@media screen and (max-width: 768px) {
+  .header__nav {
+    display: none;
+  }
+
+  .changetheme {
+    margin-right: 100px;
+  }
+}
+
+#App {
+  height: 100vh;
+}
+
+#page-wrap {
+  text-align: center;
+  overflow: auto;
+}
+
+.bm-item {
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #d1d1d1;
+  transition: color 0.2s;
+}
+
+.bm-item:hover {
+  color: white;
+}
+
+.bm-burger-button {
+  display: none;
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: 36px;
+  top: 36px;
+}
+
+@media screen and (max-width: 768px) {
+  .bm-burger-button {
+    display: block;
+  }
+}
+
+.bm-burger-bars {
+  background: #373a47;
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background: #bdc3c7;
+}
+
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+.bm-item-list {
+  color: #b8b7ad;
+}
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+
+
+//dark context
+
+.dark {
+  color: white !important;
+  background-color: #373a47;
+}

@@ -1,0 +1,26 @@
+
+.sort {
+    width: 50%;
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+
+    &__ul {
+      cursor: pointer;
+      display: flex;
+      margin-left: 20px;
+    }
+    &__li {
+      cursor: pointer;
+    }
+    &__label {
+      cursor: pointer;
+    }
+    &__li:nth-child(1) {
+      margin-right: 20px;
+    }
+} 

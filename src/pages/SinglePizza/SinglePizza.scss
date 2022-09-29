@@ -1,0 +1,41 @@
+.pizzacreate {
+  margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  &__imageblock {
+    margin-top: 20px;
+  }
+
+  &__image {
+    width: 300px;
+  }
+
+  &__price {
+    margin-top: 20px;
+  }
+  &__rating {
+    margin-top: 20px;
+  }
+  &__description {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+  }
+}
+
+.pizza-block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: flex-start;
+}

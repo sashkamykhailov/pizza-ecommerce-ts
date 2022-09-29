@@ -1,0 +1,40 @@
+
+.contact__text {
+  margin-top: 80px;
+  text-align: center;
+}
+
+form input {
+  height: 36px;
+  padding: 10px 10px;
+  margin-top: 10px;
+}
+
+form select {
+  height: 36px;
+  padding-left: 9px;
+  margin-top: 10px;
+}
+
+form textarea {
+  margin-top: 10px;
+  height: 100%;
+  min-height: 100px;
+}
+
+.checkbox {
+  margin-top: 0px;
+}
+
+.label__checkbox {
+  margin-left: 15px;
+}
+
+.button-submit {
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.warning {
+  color: red;
+}
